@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FileUpload.Interface
+namespace App.Services
 {
-    public interface IFileUp
+    public interface IRepository
     {
-        void GetFileSum(StreamReader file);
+        int[] GetNumbers(string source);
     }
 }

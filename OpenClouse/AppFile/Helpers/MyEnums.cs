@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FileUpload.Helpers
+namespace App.Helpers
 {
     public class MyEnums
     {
         public enum Menus
         {
-            AddToFile = 1,
-           
+            SumInFileNmubers = 1,
+            AverageInFileNmubers,
+
 
         }
     }
