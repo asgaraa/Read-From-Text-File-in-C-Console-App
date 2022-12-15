@@ -1,5 +1,6 @@
 ﻿using App.Services;
 using App.Services.Interfaces;
+using AppFile.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace App.Controlllers
 {
     public class AverageController : IController
     {
-        private readonly ILogger _logger;
+        private readonly ILog _logger;
         public AverageController()
         {
             _logger = new AppLogger();

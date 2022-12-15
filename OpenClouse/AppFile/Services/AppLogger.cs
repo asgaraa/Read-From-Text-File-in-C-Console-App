@@ -1,13 +1,10 @@
-﻿using App.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using AppFile.Services.Interfaces;
+
 
 namespace App.Services
 {
-    public class AppLogger : ILogger
+    public class AppLogger : ILog
     {
         public void LogMessage(string message)
         {

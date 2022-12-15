@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.Services.Interfaces
+namespace AppFile.Services.Interfaces
 {
-    public interface ILogger
+    public interface ILog
     {
         void LogMessage(string message);
     }
